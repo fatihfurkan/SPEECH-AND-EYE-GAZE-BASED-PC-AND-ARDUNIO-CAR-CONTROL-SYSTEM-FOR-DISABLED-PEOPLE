@@ -1,0 +1,216 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Record1</name>
+    </assembly>
+    <members>
+        <member name="T:Record1.Class1">
+            <summary>
+            The Class1 class provides a CLS compliant, MWArray interface to the MATLAB
+            functions contained in the files:
+            <newpara></newpara>
+            C:\Users\Fatih Furkan\Documents\MATLAB\speech\Record.m
+            <newpara></newpara>
+            C:\Users\Fatih Furkan\Documents\MATLAB\speech\test_word.m
+            <newpara></newpara>
+            C:\Users\Fatih Furkan\Documents\MATLAB\speech\train_all_words.m
+            <newpara></newpara>
+            C:\Users\Fatih Furkan\Documents\MATLAB\speech\train_word.m
+            </summary>
+            <remarks>
+            @Version 4.0
+            </remarks>
+        </member>
+        <member name="M:Record1.Class1.#cctor">
+            <summary internal= "true">
+            The static constructor instantiates and initializes the MATLAB Runtime instance.
+            </summary>
+        </member>
+        <member name="M:Record1.Class1.#ctor">
+            <summary>
+            Constructs a new instance of the Class1 class.
+            </summary>
+        </member>
+        <member name="M:Record1.Class1.Finalize">
+            <summary internal= "true">
+            Class destructor called by the CLR garbage collector.
+            </summary>
+        </member>
+        <member name="M:Record1.Class1.Dispose">
+            <summary>
+            Frees the native resources associated with this object
+            </summary>
+        </member>
+        <member name="M:Record1.Class1.Dispose(System.Boolean)">
+            <summary internal= "true">
+            Internal dispose function
+            </summary>
+        </member>
+        <member name="M:Record1.Class1.Record">
+             <summary>
+             Provides a void output, 0-input MWArrayinterface to the Record MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             get(recObj)
+             recObj = audiorecorder;
+             </remarks>
+            
+        </member>
+        <member name="M:Record1.Class1.Record(System.Int32)">
+             <summary>
+             Provides the standard 0-input MWArray interface to the Record MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             get(recObj)
+             recObj = audiorecorder;
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:Record1.Class1.test_word">
+             <summary>
+             Provides a void output, 0-input MWArrayinterface to the test_word MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             List of words we have already trained and have
+             HMM model files in hmm_model_files directory.
+             </remarks>
+            
+        </member>
+        <member name="M:Record1.Class1.test_word(System.Int32)">
+             <summary>
+             Provides the standard 0-input MWArray interface to the test_word MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             List of words we have already trained and have
+             HMM model files in hmm_model_files directory.
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:Record1.Class1.train_all_words">
+             <summary>
+             Provides a void output, 0-input MWArrayinterface to the train_all_words MATLAB
+             function.
+             </summary>
+             <remarks>
+             </remarks>
+            
+        </member>
+        <member name="M:Record1.Class1.train_all_words(System.Int32)">
+             <summary>
+             Provides the standard 0-input MWArray interface to the train_all_words MATLAB
+             function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:Record1.Class1.train_word">
+             <summary>
+             Provides a void output, 0-input MWArrayinterface to the train_word MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             read wav file and generate cepstrum
+             </remarks>
+            
+        </member>
+        <member name="M:Record1.Class1.train_word(MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a void output, 1-input MWArrayinterface to the train_word MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             read wav file and generate cepstrum
+             </remarks>
+             <param name="wordName">Input argument #1</param>
+            
+        </member>
+        <member name="M:Record1.Class1.train_word(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a void output, 2-input MWArrayinterface to the train_word MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             read wav file and generate cepstrum
+             </remarks>
+             <param name="wordName">Input argument #1</param>
+             <param name="numStates">Input argument #2</param>
+            
+        </member>
+        <member name="M:Record1.Class1.train_word(System.Int32)">
+             <summary>
+             Provides the standard 0-input MWArray interface to the train_word MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             read wav file and generate cepstrum
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:Record1.Class1.train_word(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 1-input MWArray interface to the train_word MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             read wav file and generate cepstrum
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="wordName">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:Record1.Class1.train_word(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 2-input MWArray interface to the train_word MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             read wav file and generate cepstrum
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="wordName">Input argument #1</param>
+             <param name="numStates">Input argument #2</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:Record1.Class1.WaitForFiguresToDie">
+             <summary>
+             This method will cause a MATLAB figure window to behave as a modal dialog box.
+             The method will not return until all the figure windows associated with this
+             component have been closed.
+             </summary>
+             <remarks>
+             An application should only call this method when required to keep the
+             MATLAB figure window from disappearing.  Other techniques, such as calling
+             Console.ReadLine() from the application should be considered where
+             possible.</remarks>
+            
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,194 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="2157404428" file="C:\Users\Fatih Furkan\Documents\MATLAB\speech\Record1.prj" location="C:\Users\Fatih Furkan\Documents\MATLAB\speech" name="Record1" preferred-package-location="C:\Users\Fatih Furkan\Documents\MATLAB\speech\Record1\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.library" target-name="Library Compiler">
+    <param.appname>Record1</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.0</param.version>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.guid />
+    <param.installpath.string>\Record1\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\Record1\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\Record1\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\Record1\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\Record1</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.net.component</param.target.type>
+    <param.support.packages />
+    <param.namespace />
+    <param.classorg />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.user.only.registration>false</param.user.only.registration>
+    <param.assembly.type>false</param.assembly.type>
+    <param.encryption.key.file />
+    <param.net.enable.remoting>false</param.net.enable.remoting>
+    <param.net.tsa.enable>false</param.net.tsa.enable>
+    <param.net.tsa.assembly />
+    <param.net.tsa.interface />
+    <param.net.tsa.namespace />
+    <param.net.tsa.superclass>Class1</param.net.tsa.superclass>
+    <param.net.tsa.metadata />
+    <param.net.tsa.metadata.assembly>C:\Program Files\MATLAB\R2017a\bin</param.net.tsa.metadata.assembly>
+    <param.net.saved.interface />
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.support.packages />
+      <param.namespace />
+      <param.classorg />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+      <param.user.only.registration />
+      <param.assembly.type />
+      <param.encryption.key.file />
+      <param.net.enable.remoting />
+      <param.net.tsa.enable />
+      <param.net.tsa.assembly />
+      <param.net.tsa.interface />
+      <param.net.tsa.namespace />
+      <param.net.tsa.superclass />
+      <param.net.tsa.metadata />
+      <param.net.tsa.metadata.assembly />
+      <param.net.saved.interface />
+    </unset>
+    <fileset.exports>
+      <file>${PROJECT_ROOT}\Record.m</file>
+      <file>${PROJECT_ROOT}\test_word.m</file>
+      <file>${PROJECT_ROOT}\train_all_words.m</file>
+      <file>${PROJECT_ROOT}\train_word.m</file>
+    </fileset.exports>
+    <fileset.classes>
+      <entity.package name="">
+        <entity.class name="Class1">
+          <file>${PROJECT_ROOT}\Record.m</file>
+          <file>${PROJECT_ROOT}\test_word.m</file>
+          <file>${PROJECT_ROOT}\train_all_words.m</file>
+          <file>${PROJECT_ROOT}\train_word.m</file>
+        </entity.class>
+      </entity.package>
+    </fileset.classes>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\hmm_model_files\aşağı.mat</file>
+      <file>${PROJECT_ROOT}\hmm_model_files\aşağı1.mat</file>
+      <file>${PROJECT_ROOT}\hmm_model_files\sağa.mat</file>
+      <file>${PROJECT_ROOT}\hmm_model_files\sağa1.mat</file>
+      <file>${PROJECT_ROOT}\hmm_model_files\sola.mat</file>
+      <file>${PROJECT_ROOT}\hmm_model_files\sola1.mat</file>
+      <file>${PROJECT_ROOT}\hmm_model_files\tıkla.mat</file>
+      <file>${PROJECT_ROOT}\hmm_model_files\tıkla1.mat</file>
+      <file>${PROJECT_ROOT}\hmm_model_files\yukarı.mat</file>
+      <file>${PROJECT_ROOT}\hmm_model_files\yukarı1.mat</file>
+    </fileset.resources>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\enframe.m</file>
+      <file>${PROJECT_ROOT}\frq2mel.m</file>
+      <file>${PROJECT_ROOT}\gauseval.m</file>
+      <file>${PROJECT_ROOT}\gauslogv.m</file>
+      <file>${PROJECT_ROOT}\hmm_chk.m</file>
+      <file>${PROJECT_ROOT}\hmm_fb.m</file>
+      <file>${PROJECT_ROOT}\hmm_mest.m</file>
+      <file>${PROJECT_ROOT}\hmm_mint.m</file>
+      <file>${PROJECT_ROOT}\hmm_vit.m</file>
+      <file>${PROJECT_ROOT}\mel2frq.m</file>
+      <file>${PROJECT_ROOT}\melbankm.m</file>
+      <file>${PROJECT_ROOT}\melcepst.m</file>
+      <file>${PROJECT_ROOT}\mix_par.m</file>
+      <file>${PROJECT_ROOT}\rdct.m</file>
+      <file>${PROJECT_ROOT}\rfft.m</file>
+    </fileset.depfun>
+    <fileset.package />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\Record1\for_testing" name="readme.txt" optional="true">C:\Users\Fatih Furkan\Documents\MATLAB\speech\Record1\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\Record1\for_testing" name="Record1.dll" optional="false">C:\Users\Fatih Furkan\Documents\MATLAB\speech\Record1\for_testing\Record1.dll</file>
+      <file location="${PROJECT_ROOT}\Record1\for_testing" name="Record1_overview.html" optional="false">C:\Users\Fatih Furkan\Documents\MATLAB\speech\Record1\for_testing\Record1_overview.html</file>
+      <file location="${PROJECT_ROOT}\Record1\for_testing" name="Record1Native.dll" optional="false">C:\Users\Fatih Furkan\Documents\MATLAB\speech\Record1\for_testing\Record1Native.dll</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2017a</root>
+      <toolboxes>
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabcoder" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="embeddedcoder" />
+      </toolboxes>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

@@ -1,0 +1,15 @@
+LIBRARY Record1
+EXPORTS
+Record1Initialize
+Record1InitializeWithHandlers
+Record1Terminate
+Record1PrintStackTrace
+mlxRecord
+mlfRecord
+mlxTest_word
+mlfTest_word
+mlxTrain_all_words
+mlfTrain_all_words
+mlxTrain_word
+mlfTrain_word
+
